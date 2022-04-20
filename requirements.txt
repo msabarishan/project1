@@ -1,0 +1,8 @@
+pip==20.3.4
+numpy==1.15.1
+pandas==0.23.4
+altair==3.3.0
+streamlit==0.56.0
+click==7.1.2
+pydeck==0.7.1
+psycopg2-binary==2.9.3
