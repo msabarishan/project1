@@ -9,7 +9,7 @@ indianew=IndiaT[['Physicians (per 1,000 people)','Number of deaths ages 5-9 year
 indianew1=indianew.reindex()
 df = indianew1.rename_axis(None, axis=1)
 st.title("World Bank Data for India")
-st.dataframe(df)
+st.dataframe(df,100,200)
 #st.set_page_config(page_title="World Bank Data for India",layout="wide",initial_sidebar_state="expanded")
 
 
