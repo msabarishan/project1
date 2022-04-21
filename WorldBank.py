@@ -10,7 +10,7 @@ indianew1=indianew.reindex()
 df = indianew1.rename_axis(None, axis=1)
 #st.plotly_chart()
 st.title("World Bank Data for India")
-st.dataframe(df)
+#st.dataframe(df)
 #st.set_page_config(page_title="World Bank Data for India",layout="wide",initial_sidebar_state="expanded")
-
+st.table(df)
 
